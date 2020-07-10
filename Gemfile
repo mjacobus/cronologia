@@ -14,7 +14,9 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'rails-controller-testing'
   gem 'rspec-rails', '4.0.0.beta3'
 end
 
