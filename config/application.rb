@@ -25,5 +25,7 @@ module Cronologia
       generate.assets false
       generate.view_specs false
     end
+
+    config.autoload_paths << "#{Rails.root}/lib"
   end
 end
