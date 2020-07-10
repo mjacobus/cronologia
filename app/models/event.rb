@@ -4,6 +4,6 @@ class Event
   attr_reader :name
 
   def initialize(attributes = {})
-    @name =  attributes.fetch(:name)
+    @name = attributes.fetch(:name)
   end
 end
