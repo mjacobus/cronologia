@@ -1,14 +1,13 @@
 <h1>Cronologia Bíblia</h1>
 
-<table>
+<table class="table table-striped">
   <% @timeline.each do |event| %>
     <% event = EventDecorator.new(event) %>
 
     <tr>
-      <td class="no-wrap"><strong><%= event.formatted_precision %> <%= event.formatted_year %></strong></td>
+      <td> <small><%= event.formatted_precision %> </small> </td>
+      <td class="no-wrap"><strong><%= event.formatted_year %></strong></td>
       <td> <%= event.name %> </td>
     </tr>
   <% end %>
 </table>
-
-<p>Em <a href="https://github.com/mjacobus/cronologia">Breve</a></p>
