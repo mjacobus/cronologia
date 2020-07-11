@@ -7,8 +7,10 @@ Metrics/BlockLength:
     - 'spec/**/*'
 
 Metrics/MethodLength:
+  Enabled: false
   Exclude:
    - 'db/migrate/**.rb'
+
 
 Layout/LineLength:
   Max: 100
