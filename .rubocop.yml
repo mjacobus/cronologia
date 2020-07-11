@@ -36,6 +36,9 @@ Layout/MultilineOperationIndentation:
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
 Naming/RescuedExceptionsVariableName:
   PreferredName: 'exception'
 
