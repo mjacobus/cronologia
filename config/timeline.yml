@@ -51,26 +51,32 @@ events:
       day:
       precision: precise
   -
-    name: "Nascimento do justo Enoque Gên. 5:18"
+    name: "Enoque"
+    description_lines:
+      - "Nascimento do justo Enoque Gên. 5:18"
+      - "Transferência de Enoque; Gên. 5:23, 24; finda seu período de Judas 14 profetizar"
     from:
       year: -3404
       month:
       day:
       precision: precise
     to:
-      year: -3404
+      year: -3039
       month:
       day:
       precision: precise
   -
-    name: "Nascimento de Metusalém Gên. 5:21"
+    name: "Metusalém"
+    description_lines:
+      - "Nascimento de Metusalém Gên. 5:21"
+      - "Morte de Metusalém Gên. 5:27 Caem as águas do Dilúvio Gên. 7:6, 11 (outono, hem. norte)."
     from:
       year: -3339
       month:
       day:
       precision: precise
     to:
-      year: -3339
+      year: -2370
       month:
       day:
       precision: precise
@@ -83,18 +89,6 @@ events:
       precision: precise
     to:
       year: -3152
-      month:
-      day:
-      precision: precise
-  -
-    name: "Transferência de Enoque; Gên. 5:23, 24; finda seu período de Judas 14 profetizar"
-    from:
-      year: -3039
-      month:
-      day:
-      precision: precise
-    to:
-      year: -3039
       month:
       day:
       precision: precise
@@ -143,18 +137,6 @@ events:
       precision: precise
     to:
       year: -2468
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Metusalém Gên. 5:27 Caem as águas do Dilúvio Gên. 7:6, 11 (outono, hem. norte)."
-    from:
-      year: -2370
-      month:
-      day:
-      precision: precise
-    to:
-      year: -2370
       month:
       day:
       precision: precise
@@ -566,6 +548,18 @@ events:
       month:
       day:
       precision: about
+  -
+    name: "Pacto da Lei"
+    from:
+      year: -1513
+      month:
+      day:
+      precision: precise
+    to:
+      year: 33
+      month:
+      day:
+      precision: precise
   -
     name: "Páscoa; os israelitas saem Êxo. 12:12; do Egito; libertação no mar Êxo. 14:27 Vermelho; abalado o poder do Êxo. 14:29, 30; Egito; fim do período de 400 Gên. 15:13, 14 anos de aflição Feito o pacto da Lei no Mte. Êxo. 24:6-8 Sinai (Horebe) Fim do período de 430 anos Gál. 3:17; desde a validação do pacto Êxo. 12:40 abraâmico Moisés compila Gênesis no João 5:46 ermo; começa a escrita da Bíblia"
     from:
@@ -1455,6 +1449,18 @@ events:
       day:
       precision: precise
   -
+    name: "7 Tempos"
+    from:
+      year: -607
+      month:
+      day:
+      precision: precise
+    to:
+      year: 1914
+      month:
+      day:
+      precision: precise
+  -
     name: "No quinto mês (ab), o templo é arrasado e Jerusalém 2 Reis 25:8-10; destruída Jer. 52:12-14 No sétimo mês, judeus 2 Reis 25:25 abandonam Judá; começa a 2 Reis 25:26; contagem dos “tempos Luc. 21:24 designados das nações” Jeremias escreve Lamentações Introdução de Lam., LXX"
     from:
       year: -607
@@ -1634,6 +1640,19 @@ events:
       month:
       day:
       precision: about
+  -
+    name: "70 Semanas Proféticas"
+    from:
+      year: -455
+      month:
+      day:
+      precision: precise
+    to:
+      year: -36
+      month:
+      day:
+      precision: precise
+
   -
     name: "Neemias reconstrói as Nee. 1:1 muralhas de Jerusalém; Nee. 2:1, 11 começa a cumprir-se a Nee. 6:15 profecia das 70 semanas Dan. 9:24"
     from:
