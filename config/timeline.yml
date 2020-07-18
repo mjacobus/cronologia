@@ -219,14 +219,17 @@ events:
       day:
       precision: before
   -
-    name: "Nasce Ismael Gên. 16:15, 16"
+    name: "Ismael"
+    description_lines:
+      - "Nasce Ismael Gên. 16:15, 16"
+      - "Morte de Ismael Gên. 25:17"
     from:
       year: -1932
       month:
       day:
       precision: precise
     to:
-      year: -1932
+      year: -1795
       month:
       day:
       precision: precise
@@ -338,18 +341,6 @@ events:
       precision: precise
     to:
       year: -1818
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Ismael Gên. 25:17"
-    from:
-      year: -1795
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1795
       month:
       day:
       precision: precise
