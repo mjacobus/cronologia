@@ -20,18 +20,18 @@ class EventDecorator
   def to_s
     parts = [from.to_s]
 
-    if length_in_years.positive?
+    if lengthy?
       parts << [' - ', to.to_s]
     end
 
-    parts << name
-    parts.compact.join(' ')
+    parts << ": #{name}"
+    parts.compact.join
   end
 
   def inline_css
     css = ["margin-left: #{margin_left}px;"]
 
-    if length_in_years.positive?
+    if lengthy?
       css << ["width: #{length_in_years}px;"]
     end
 
@@ -48,12 +48,17 @@ class EventDecorator
     classes.join(' ')
   end
 
-  private
+  def lengthy?
+    length_in_years.positive?
+  end
 
   def length_in_years
     # TODO: Chek how year zero impacts it
     to.year - from.year
   end
+
+  private
+
 
   def margin_left
     4100 + from.year

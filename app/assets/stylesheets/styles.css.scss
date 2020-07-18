@@ -46,6 +46,9 @@
   color: gray;
 
   &.long-event {
-    background: yellow;
+    background: gold;
+    border-right: 1px solid gray;
+    border-color: gold;
+    text-align: center;
   }
 }
