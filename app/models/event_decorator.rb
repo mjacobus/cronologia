@@ -22,11 +22,7 @@ class EventDecorator
   end
 
   def formatted_year
-    if year.positive?
-      return "#{year} EC"
-    end
-
-    "#{year * -1} AEC"
+    Year.new(year).to_s
   end
 
   def to_s
@@ -42,6 +38,6 @@ class EventDecorator
   private
 
   def margin_left
-    4050 + year
+    4100 + year
   end
 end

@@ -14,9 +14,34 @@
 
 .timeline {
   width: 8000px;
+
+  .line {
+    width: 8000px;
+    height: 20px;
+    position: sticky;
+    border-bottom: 1px solid gray;
+    top: 150px;
+    padding-left: 100px;
+
+    .year {
+      width: 200px;
+      float: left;
+      border-left: 1px solid gray;
+      padding-left: 10px;
+      padding-bottom: 4px;
+      color: #999;
+    }
+  }
+}
+
+.events {
+  padding-top: 50px;
 }
 
 .event {
-  border-left: 2px solid black;
-  padding-left: 4px;
+  border-left: 1px solid gray;
+  padding-left: 10px;
+  margin-bottom: 1px;
+  color: gray;
+  font-size: 13px;
 }
