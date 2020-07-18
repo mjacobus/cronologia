@@ -1,7 +1,7 @@
 events:
   -
     name: "Adão"
-    description:
+    description_lines:
       - "Criação de Adão Gên. 2:7"
       - "Morte de Adão Gên. 5:5"
     from:

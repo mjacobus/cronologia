@@ -2,12 +2,14 @@
 
 class Event
   attr_reader :name
-  attr_reader :year
-  attr_reader :precision
+  attr_reader :from
+  attr_reader :to
+  attr_reader :description_lines
 
   def initialize(attributes = {})
     @name = attributes.fetch(:name)
-    @year = Integer(attributes.fetch(:year))
-    @precision = attributes.fetch(:precision)
+    @from = EventDate.new(attributes.fetch(:from))
+    @to = EventDate.new(attributes.fetch(:to))
+    @description_lines = attributes.fetch(:description_lines, [])
   end
 end
