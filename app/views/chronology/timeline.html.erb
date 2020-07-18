@@ -9,11 +9,11 @@
     <% end %>
   </div>
   <br>
-  
+
   <div class="events">
     <% @timeline.each do |event| %>
       <% event = EventDecorator.new(event) %>
-      <div class="event" style="<%= event.inline_css  %>" title="<%= event.name %>"><%= event.formatted_year  %> - <%= event.name %></div>
+      <div class="event" style="<%= event.inline_css  %>" title="<%= event.to_s %>"><%= event.to_s  %></div>
     <% end %>
   </div>
 </div>
