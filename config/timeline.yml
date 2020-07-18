@@ -180,14 +180,17 @@ events:
       day:
       precision: after
   -
-    name: "Nascimento de Abraão Gên. 11:26, 32; Gên. 12:4"
+    name: "Abraão"
+    description_lines:
+      - "Nascimento de Abraão Gên. 11:26, 32; Gên. 12:4"
+      - "Morte de Abraão Gên. 25:7"
     from:
       year: -2018
       month:
       day:
       precision: precise
     to:
-      year: -2018
+      year: -1843
       month:
       day:
       precision: precise
@@ -308,18 +311,6 @@ events:
       precision: precise
     to:
       year: -1858
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Abraão Gên. 25:7"
-    from:
-      year: -1843
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1843
       month:
       day:
       precision: precise
