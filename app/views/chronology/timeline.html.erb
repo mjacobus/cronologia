@@ -14,11 +14,7 @@
     <% @timeline.each do |event| %>
       <% event = EventDecorator.new(event) %>
       <div class="event <%= event.css_classes %>" style="<%= event.inline_css  %>" title="<%= event.to_s %>">
-        <% if event.lengthy? %>
-          <%= event.name  %>
-        <% else %>
-          <%= event.to_s  %>
-        <% end %>
+        <%= event.name  %>
       </div>
     <% end %>
   </div>
