@@ -9,35 +9,53 @@ class EventDecorator
     @event.name
   end
 
-  def year
-    @event.year
+  def from
+    @event.from
   end
 
-  def precision
-    @event.precision
-  end
-
-  def formatted_precision
-    { 'about' => 'c.', 'after' => 'd.', 'before' => 'a.' }[precision]
-  end
-
-  def formatted_year
-    Year.new(year).to_s
+  def to
+    @event.to
   end
 
   def to_s
-    [formatted_precision, formatted_year, name].compact.join(' ')
+    parts = [from.to_s]
+
+    if length_in_years.positive?
+      parts << [' - ', to.to_s]
+    end
+
+    parts << name
+    parts.compact.join(' ')
   end
 
   def inline_css
-    [
-      "margin-left: #{margin_left}px;"
-    ].join(';')
+    css = ["margin-left: #{margin_left}px;"]
+
+    if length_in_years.positive?
+      css << ["width: #{length_in_years}px;"]
+    end
+
+    css.join(';')
+  end
+
+  def css_classes
+    classes = []
+
+    if length_in_years.positive?
+      classes << 'long-event'
+    end
+
+    classes.join(' ')
   end
 
   private
 
+  def length_in_years
+    # TODO: Chek how year zero impacts it
+    to.year - from.year
+  end
+
   def margin_left
-    4100 + year
+    4100 + from.year
   end
 end
