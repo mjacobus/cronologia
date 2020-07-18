@@ -4,7 +4,7 @@
   <div class="line">
     <% -4100.upto(2200) do |number| %>
       <% if number % 200 == 0 %>
-        <span class="year"><%= Year.new(number) %></span>
+        <span class="year"><%= EventDate.new(year: number, precision: 'precise') %></span>
       <% end %>
     <% end %>
   </div>
@@ -13,7 +13,9 @@
   <div class="events">
     <% @timeline.each do |event| %>
       <% event = EventDecorator.new(event) %>
-      <div class="event" style="<%= event.inline_css  %>" title="<%= event.to_s %>"><%= event.to_s  %></div>
+      <div class="event <%= event.css_classes %>" style="<%= event.inline_css  %>" title="<%= event.to_s %>">
+        <%= event.name  %>
+      </div>
     <% end %>
   </div>
 </div>

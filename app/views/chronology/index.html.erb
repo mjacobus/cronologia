@@ -4,12 +4,24 @@
       <h1>Cronologia Bíblia</h1>
 
       <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>De</th>
+            <th>Até</th>
+            <th>Evento</th>
+          </tr>
+        </thead>
         <% @timeline.each do |event| %>
           <% event = EventDecorator.new(event) %>
-
           <tr>
-            <td> <small><%= event.formatted_precision %> </small> </td>
-            <td class="no-wrap"><strong><%= event.formatted_year %></strong></td>
+            <td class="no-wrap">
+              <small><%= event.from.to_s %></small>
+            </td>
+            <td class="no-wrap">
+              <% if event.lengthy? %>
+                <small><%= event.to.to_s %></small>
+              <% end %>
+            </td>
             <td> <%= event.name %> </td>
           </tr>
         <% end %>

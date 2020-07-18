@@ -8,8 +8,14 @@ RSpec.describe Event do
   let(:attributes) do
     {
       name: 'the name',
-      precision: 'about',
-      year: '-2'
+      from: {
+        precision: 'about',
+        year: '-2'
+      },
+      to: {
+        precision: 'about',
+        year: '-2'
+      }
     }
   end
 
@@ -17,11 +23,11 @@ RSpec.describe Event do
     expect(event.name).to eq('the name')
   end
 
-  it 'has a precision' do
-    expect(event.precision).to eq('about')
+  it 'has a from.precision' do
+    expect(event.from.precision).to eq('about')
   end
 
-  it 'has a year' do
-    expect(event.year).to eq(-2)
+  it 'has a to.year' do
+    expect(event.to.year).to eq(-2)
   end
 end

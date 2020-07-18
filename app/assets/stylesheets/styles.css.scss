@@ -44,4 +44,11 @@
   padding-left: 10px;
   margin-bottom: 1px;
   color: gray;
+
+  &.long-event {
+    background: gold;
+    border-right: 1px solid gray;
+    border-color: gold;
+    text-align: center;
+  }
 }
