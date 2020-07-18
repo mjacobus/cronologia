@@ -10,9 +10,9 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 
 # frontend
+gem 'bootstrap', '~> 4.4'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
-gem 'bootstrap', '~> 4.4'
 
 group :development, :test do
   gem 'awesome_print'
