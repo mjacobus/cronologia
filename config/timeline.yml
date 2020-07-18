@@ -132,14 +132,17 @@ events:
       day:
       precision: precise
   -
-    name: "Nascimento de Sem Gên. 7:11; Gên. 11:10"
+    name: "Sem"
+    description_lines:
+    - "Nascimento de Sem Gên. 7:11; Gên. 11:10"
+    - "Morte de Sem Gên. 11:11"
     from:
       year: -2468
       month:
       day:
       precision: precise
     to:
-      year: -2468
+      year: -1868
       month:
       day:
       precision: precise
@@ -294,18 +297,6 @@ events:
       precision: precise
     to:
       year: -1878
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Sem Gên. 11:11"
-    from:
-      year: -1868
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1868
       month:
       day:
       precision: precise
