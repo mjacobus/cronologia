@@ -14,9 +14,10 @@
 
 .timeline {
   width: 8000px;
+  color: blue;
 
   .line {
-    width: 8000px;
+    width: 7000px;
     height: 20px;
     position: sticky;
     border-bottom: 1px solid gray;
@@ -29,13 +30,13 @@
       border-left: 1px solid gray;
       padding-left: 10px;
       padding-bottom: 4px;
-      color: #999;
     }
   }
 }
 
 .events {
   padding-top: 50px;
+  padding-bottom: 2000px;
 }
 
 .event {
@@ -43,5 +44,4 @@
   padding-left: 10px;
   margin-bottom: 1px;
   color: gray;
-  font-size: 13px;
 }
