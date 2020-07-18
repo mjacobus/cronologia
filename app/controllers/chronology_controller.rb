@@ -4,4 +4,8 @@ class ChronologyController < ApplicationController
   def index
     @timeline = Timeline.from_yaml_file
   end
+
+  def timeline
+    @timeline = Timeline.from_yaml_file
+  end
 end
