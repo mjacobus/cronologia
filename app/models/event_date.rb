@@ -11,18 +11,15 @@ class EventDate
 
   def to_s
     if year.positive?
-      return "#{year} EC #{formatted_precision}".strip
+      return "#{formatted_precision} #{year} EC"
     end
 
-    "#{year * -1} AEC #{formatted_precision}".strip
+    "#{formatted_precision} #{year * -1} AEC"
   end
 
   private
 
   def formatted_precision
-    value = { 'about' => 'c.', 'after' => 'd.', 'before' => 'a.' }[precision]
-    if value
-      "(#{value})"
-    end
+    { 'about' => 'c.', 'after' => 'd.', 'before' => 'a.' }[precision]
   end
 end
