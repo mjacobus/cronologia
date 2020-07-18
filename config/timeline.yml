@@ -303,6 +303,21 @@ events:
       day:
       precision: precise
   -
+    name: "Jacó"
+    description_lines:
+      - "Nascimento de Esaú e Jacó Gên. 25:26"
+      - "Morte de Jacó Gên. 47:28"
+    from:
+      year: -1858
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1711
+      month:
+      day:
+      precision: precise
+  -
     name: "Nascimento de Esaú e Jacó Gên. 25:26"
     from:
       year: -1858
@@ -443,18 +458,6 @@ events:
       precision: precise
     to:
       year: -1728
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Jacó Gên. 47:28"
-    from:
-      year: -1711
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1711
       month:
       day:
       precision: precise
