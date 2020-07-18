@@ -195,6 +195,22 @@ events:
       day:
       precision: precise
   -
+    name: "Sara"
+    description_lines:
+      - "10 anos mais nova que Abraão"
+      - "Morte de Sara Gên. 17:17; Gên. 23:1"
+    todo: Confirmar data de nascimento
+    from:
+      year: -2008
+      month:
+      day:
+      precision: about
+    to:
+      year: -1881
+      month:
+      day:
+      precision: precise
+  -
     name: "Abraão cruza o Eufrates a Gên. 12:4, 7; caminho de Canaã; validado Êxo. 12:40; o pacto abraâmico; começo Gál. 3:17 do período de 430 anos até o pacto da Lei"
     from:
       year: -1943
@@ -266,18 +282,6 @@ events:
       precision: precise
     to:
       year: -1913
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Sara Gên. 17:17; Gên. 23:1"
-    from:
-      year: -1881
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1881
       month:
       day:
       precision: precise
