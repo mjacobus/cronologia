@@ -59,7 +59,6 @@ class EventDecorator
 
   private
 
-
   def margin_left
     4100 + from.year
   end
