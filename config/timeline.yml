@@ -1,665 +1,1948 @@
 events:
   -
-    name: "Criação de Adão Gên. 2:7"
-    year: "-4026"
-    precision: "precise"
+    name: "Adão"
+    description:
+      - "Criação de Adão Gên. 2:7"
+      - "Morte de Adão Gên. 5:5"
+    from:
+      year: -4026
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3096
+      month:
+      day:
+      precision: precise
   -
     name: "Feito o pacto edênico, primeira profecia Gên. 3:15"
-    year: "-4026"
-    precision: "after"
+    from:
+      year: -4026
+      month:
+      day:
+      precision: after
+    to:
+      year: -4026
+      month:
+      day:
+      precision: after
   -
     name: "Caim mata Abel Gên. 4:8"
-    year: "-3896"
-    precision: "before"
-  # -
-  #   name: "FAKE TEST 1 REMOVE"
-  #   year: "-3800"
-  #   precision: "before"
-  # -
-  #   name: "FAKE TEST 1 REMOVE"
-  #   year: "-3600"
-  #   precision: "before"
-  # -
-  #   name: "FAKE TEST 1 REMOVE"
-  #   year: "-3400"
-  #   precision: "before"
+    from:
+      year: -3896
+      month:
+      day:
+      precision: before
+    to:
+      year: -3896
+      month:
+      day:
+      precision: before
   -
     name: "Nascimento de Sete Gên. 5:3"
-    year: "-3896"
-    precision: "precise"
+    from:
+      year: -3896
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3896
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento do justo Enoque Gên. 5:18"
-    year: "-3404"
-    precision: "precise"
+    from:
+      year: -3404
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3404
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Metusalém Gên. 5:21"
-    year: "-3339"
-    precision: "precise"
+    from:
+      year: -3339
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3339
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Lameque Gên. 5:25"
-    year: "-3152"
-    precision: "precise"
-  -
-    name: "Morte de Adão Gên. 5:5"
-    year: "-3096"
-    precision: "precise"
+    from:
+      year: -3152
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3152
+      month:
+      day:
+      precision: precise
   -
     name: "Transferência de Enoque; Gên. 5:23, 24; finda seu período de Judas 14 profetizar"
-    year: "-3039"
-    precision: "precise"
+    from:
+      year: -3039
+      month:
+      day:
+      precision: precise
+    to:
+      year: -3039
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Noé Gên. 5:28, 29"
-    year: "-2970"
-    precision: "precise"
+    from:
+      year: -2970
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2970
+      month:
+      day:
+      precision: precise
   -
     name: "Declaração de Deus quanto à humanidade Gên. 6:3"
-    year: "-2490"
-    precision: "precise"
+    from:
+      year: -2490
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2490
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Jafé Gên. 5:32; Gên. 9:24; Gên. 10:21"
-    year: "-2470"
-    precision: "precise"
+    from:
+      year: -2470
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2470
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Sem Gên. 7:11; Gên. 11:10"
-    year: "-2468"
-    precision: "precise"
+    from:
+      year: -2468
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2468
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Metusalém Gên. 5:27 Caem as águas do Dilúvio Gên. 7:6, 11 (outono, hem. norte)."
-    year: "-2370"
-    precision: "precise"
+    from:
+      year: -2370
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2370
+      month:
+      day:
+      precision: precise
   -
     name: "Faz-se pacto depois do Gên. 8:13; Dilúvio Gên. 9:16"
-    year: "-2369"
-    precision: "precise"
+    from:
+      year: -2369
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2369
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Arpaxade Gên. 11:10"
-    year: "-2368"
-    precision: "precise"
+    from:
+      year: -2368
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2368
+      month:
+      day:
+      precision: precise
   -
     name: "Construção da Torre de Babel Gên. 11:4"
-    year: "-2269"
-    precision: "after"
+    from:
+      year: -2269
+      month:
+      day:
+      precision: after
+    to:
+      year: -2269
+      month:
+      day:
+      precision: after
   -
     name: "Morte de Noé Gên. 9:28, 29"
-    year: "-2020"
-    precision: "precise"
+    from:
+      year: -2020
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2020
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Abraão Gên. 11:26, 32; Gên. 12:4"
-    year: "-2018"
-    precision: "precise"
+    from:
+      year: -2018
+      month:
+      day:
+      precision: precise
+    to:
+      year: -2018
+      month:
+      day:
+      precision: precise
   -
     name: "Abraão cruza o Eufrates a Gên. 12:4, 7; caminho de Canaã; validado Êxo. 12:40; o pacto abraâmico; começo Gál. 3:17 do período de 430 anos até o pacto da Lei"
-    year: "-1943"
-    precision: "precise"
+    from:
+      year: -1943
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1943
+      month:
+      day:
+      precision: precise
   -
     name: "Ló é resgatado; Abraão Gên. 14:16, 18; visita Melquisedeque Gên. 16:3"
-    year: "-1933"
-    precision: "before"
+    from:
+      year: -1933
+      month:
+      day:
+      precision: before
+    to:
+      year: -1933
+      month:
+      day:
+      precision: before
   -
     name: "Nasce Ismael Gên. 16:15, 16"
-    year: "-1932"
-    precision: "precise"
+    from:
+      year: -1932
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1932
+      month:
+      day:
+      precision: precise
   -
     name: "Feito pacto da circuncisão Gên. 17:1,10, Julgamento de Sodoma e Gên. 17:24 Gomorra Gên. 19:24"
-    year: "-1919"
-    precision: "precise"
+    from:
+      year: -1919
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1919
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Isaque, o Gên. 21:2, 5; herdeiro legítimo; começo dos Atos 13:17-20 ‘cerca de 450 anos’"
-    year: "-1918"
-    precision: "precise"
+    from:
+      year: -1918
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1918
+      month:
+      day:
+      precision: precise
   -
     name: "Isaque é desmamado; Ismael é Gên. 21:8; despedido; começo da aflição Gên. 15:13; de 400 anos Atos 7:6"
-    year: "-1913"
-    precision: "precise"
+    from:
+      year: -1913
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1913
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Sara Gên. 17:17; Gên. 23:1"
-    year: "-1881"
-    precision: "precise"
+    from:
+      year: -1881
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1881
+      month:
+      day:
+      precision: precise
   -
     name: "Casamento de Isaque e Rebeca Gên. 25:20"
-    year: "-1878"
-    precision: "precise"
+    from:
+      year: -1878
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1878
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Sem Gên. 11:11"
-    year: "-1868"
-    precision: "precise"
+    from:
+      year: -1868
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1868
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Esaú e Jacó Gên. 25:26"
-    year: "-1858"
-    precision: "precise"
+    from:
+      year: -1858
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1858
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Abraão Gên. 25:7"
-    year: "-1843"
-    precision: "precise"
+    from:
+      year: -1843
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1843
+      month:
+      day:
+      precision: precise
   -
     name: "Esaú casa-se com duas primeiras esposas Gên. 26:34"
-    year: "-1818"
-    precision: "precise"
+    from:
+      year: -1818
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1818
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Ismael Gên. 25:17"
-    year: "-1795"
-    precision: "precise"
+    from:
+      year: -1795
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1795
+      month:
+      day:
+      precision: precise
   -
     name: "Jacó foge para Harã; sua Gên. 28:2 visão em Betel Gên. 28:13, 19"
-    year: "-1781"
-    precision: "precise"
+    from:
+      year: -1781
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1781
+      month:
+      day:
+      precision: precise
   -
     name: "Jacó casa-se com Léia e Gên. 29:23-30 e Raquel"
-    year: "-1774"
-    precision: "precise"
+    from:
+      year: -1774
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1774
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de José Gên. 30:23, 24"
-    year: "-1767"
-    precision: "precise"
+    from:
+      year: -1767
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1767
+      month:
+      day:
+      precision: precise
   -
     name: "Jacó retorna de Harã para Gên. 31:18, 4 Canaã"
-    year: "-1761"
-    precision: "precise"
+    from:
+      year: -1761
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1761
+      month:
+      day:
+      precision: precise
   -
     name: "Jacó luta com um anjo; é chamado de Israel Gên. 32:24-28"
-    year: "-1761"
-    precision: "about"
+    from:
+      year: -1761
+      month:
+      day:
+      precision: about
+    to:
+      year: -1761
+      month:
+      day:
+      precision: about
   -
     name: "José é vendido como escravo por seus irmãos Gên. 37:2, 28"
-    year: "-1750"
-    precision: "precise"
+    from:
+      year: -1750
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1750
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Isaque Gên. 35:28, 29"
-    year: "-1738"
-    precision: "precise"
+    from:
+      year: -1738
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1738
+      month:
+      day:
+      precision: precise
   -
     name: "José é nomeado primeiro- ministro do Egito Gên. 41:40, 46"
-    year: "-1737"
-    precision: "precise"
+    from:
+      year: -1737
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1737
+      month:
+      day:
+      precision: precise
   -
     name: "Jacó, com a inteira família, Gên. 45:6; entra no Egito Gên. 46:26; Gên. 47:9"
-    year: "-1728"
-    precision: "precise"
+    from:
+      year: -1728
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1728
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de Jacó Gên. 47:28"
-    year: "-1711"
-    precision: "precise"
+    from:
+      year: -1711
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1711
+      month:
+      day:
+      precision: precise
   -
     name: "Morte de José Gên. 50:26"
-    year: "-1657"
-    precision: "precise"
+    from:
+      year: -1657
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1657
+      month:
+      day:
+      precision: precise
   -
     name: "Provação de Jó Jó 1:8; 42:16"
-    year: "-1613"
-    precision: "before"
+    from:
+      year: -1613
+      month:
+      day:
+      precision: before
+    to:
+      year: -1613
+      month:
+      day:
+      precision: before
   -
     name: "O Egito alcança preeminência como primeira potência Êxo. 1:8 mundial"
-    year: "-1600"
-    precision: "after"
+    from:
+      year: -1600
+      month:
+      day:
+      precision: after
+    to:
+      year: -1600
+      month:
+      day:
+      precision: after
   -
     name: "Nascimento de Moisés Êxo. 2:2, 10"
-    year: "-1593"
-    precision: "precise"
+    from:
+      year: -1593
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1593
+      month:
+      day:
+      precision: precise
   -
     name: "Moisés se oferece como Êxo. 2:11 libertador; foge para Midiã Êxo. 2:14, 15; Atos 7:23"
-    year: "-1553"
-    precision: "precise"
+    from:
+      year: -1553
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1553
+      month:
+      day:
+      precision: precise
   -
     name: "Moisés junto ao espinheiro Êxo. 3:2 ardente"
-    year: "-1514"
-    precision: "about"
+    from:
+      year: -1514
+      month:
+      day:
+      precision: about
+    to:
+      year: -1514
+      month:
+      day:
+      precision: about
   -
     name: "Páscoa; os israelitas saem Êxo. 12:12; do Egito; libertação no mar Êxo. 14:27 Vermelho; abalado o poder do Êxo. 14:29, 30; Egito; fim do período de 400 Gên. 15:13, 14 anos de aflição Feito o pacto da Lei no Mte. Êxo. 24:6-8 Sinai (Horebe) Fim do período de 430 anos Gál. 3:17; desde a validação do pacto Êxo. 12:40 abraâmico Moisés compila Gênesis no João 5:46 ermo; começa a escrita da Bíblia"
-    year: "-1513"
-    precision: "precise"
+    from:
+      year: -1513
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1513
+      month:
+      day:
+      precision: precise
   -
     name: "Concluída a construção do Tabernáculo Êxo. 40:17 Investidura do sacerdócio Lev. 8:34-36 arônico Moisés termina Êxodo e Lev. 27:34; Levítico Núm. 1:1"
-    year: "-1512"
-    precision: "precise"
+    from:
+      year: -1512
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1512
+      month:
+      day:
+      precision: precise
   -
     name: "Moisés termina o livro de Jó 42:16, 17 Jó"
-    year: "-1473"
-    precision: "about"
+    from:
+      year: -1473
+      month:
+      day:
+      precision: about
+    to:
+      year: -1473
+      month:
+      day:
+      precision: about
   -
     name: "Moisés termina Números nas Núm. 35:1; Planícies de Moabe Núm. 36:13 Pacto com Israel em Moabe Deut. 29:1 Moisés escreve Deuteronômio Deut. 1:1, 3 Moisés morre no Mte. Nebo, Deut. 34:1,5,7 em Moabe Israel entra em Canaã, sob Jos. 4:19 Josué"
-    year: "-1473"
-    precision: "precise"
+    from:
+      year: -1473
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1473
+      month:
+      day:
+      precision: precise
   -
     name: "Consolidada a maior parte da Jos. 11:23; conquista da terra; fim dos Jos. 14:7 ‘cerca de 450 anos’ de Jos. 10-15 Atos 13:17-20"
-    year: "-1467"
-    precision: "precise"
+    from:
+      year: -1467
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1467
+      month:
+      day:
+      precision: precise
   -
     name: "Terminado o livro de Josué Jos. 1:1; Jos. 24:26 Morte de Josué Jos. 24:29"
-    year: "-1450"
-    precision: "about"
+    from:
+      year: -1450
+      month:
+      day:
+      precision: about
+    to:
+      year: -1450
+      month:
+      day:
+      precision: about
   -
     name: "Samuel unge Saul como rei de 1 Sam. 10:24; Israel Atos 13:21"
-    year: "-1117"
-    precision: "precise"
+    from:
+      year: -1117
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1117
+      month:
+      day:
+      precision: precise
   -
     name: "Nascimento de Davi em Belém 1 Sam. 16:1"
-    year: "-1107"
-    precision: "precise"
+    from:
+      year: -1107
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1107
+      month:
+      day:
+      precision: precise
   -
     name: "Samuel termina o livro de Juí. 21:25 Juízes"
-    year: "-1100"
-    precision: "about"
+    from:
+      year: -1100
+      month:
+      day:
+      precision: about
+    to:
+      year: -1100
+      month:
+      day:
+      precision: about
   -
     name: "Samuel termina o livro de Rute 4:18-22 Rute"
-    year: "-1090"
-    precision: "about"
+    from:
+      year: -1090
+      month:
+      day:
+      precision: about
+    to:
+      year: -1090
+      month:
+      day:
+      precision: about
   -
     name: "Terminado o livro de 1 Sam. 31:6 1 Samuel"
-    year: "-1078"
-    precision: "about"
+    from:
+      year: -1078
+      month:
+      day:
+      precision: about
+    to:
+      year: -1078
+      month:
+      day:
+      precision: about
   -
     name: "Davi torna-se rei de Judá em Hébron 2 Sam. 2:4"
-    year: "-1077"
-    precision: "precise"
+    from:
+      year: -1077
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1077
+      month:
+      day:
+      precision: precise
   -
     name: "Davi torna-se rei sobre todo o Israel; faz de Jerusalém sua capital 2 Sam. 5:3-7"
-    year: "-1070"
-    precision: "precise"
+    from:
+      year: -1070
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1070
+      month:
+      day:
+      precision: precise
   -
     name: "A Arca é trazida a Jerusalém; 2 Sam. 6:15; feito pacto para um reino com 2 Sam. 7:12-16 Davi"
-    year: "-1070"
-    precision: "after"
+    from:
+      year: -1070
+      month:
+      day:
+      precision: after
+    to:
+      year: -1070
+      month:
+      day:
+      precision: after
   -
     name: "Gade e Natã terminam 2 Sam. 24:18 2 Samuel"
-    year: "-1040"
-    precision: "about"
+    from:
+      year: -1040
+      month:
+      day:
+      precision: about
+    to:
+      year: -1040
+      month:
+      day:
+      precision: about
   -
     name: "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
-    year: "-1037"
-    precision: "precise"
+    from:
+      year: -1037
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1037
+      month:
+      day:
+      precision: precise
   -
     name: "Salomão começa a construção do templo 1 Reis 6:1"
-    year: "-1034"
-    precision: "precise"
+    from:
+      year: -1034
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1034
+      month:
+      day:
+      precision: precise
   -
     name: "Terminada a construção do templo em Jerusalém 1 Reis 6:38"
-    year: "-1027"
-    precision: "precise"
+    from:
+      year: -1027
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1027
+      month:
+      day:
+      precision: precise
   -
     name: "Salomão termina O Cântico Cân. 1:1 de Salomão"
-    year: "-1020"
-    precision: "about"
+    from:
+      year: -1020
+      month:
+      day:
+      precision: about
+    to:
+      year: -1020
+      month:
+      day:
+      precision: about
   -
     name: "Salomão termina o livro de Eclesiastes Ecl. 1:1"
-    year: "-1000"
-    precision: "before"
+    from:
+      year: -1000
+      month:
+      day:
+      precision: before
+    to:
+      year: -1000
+      month:
+      day:
+      precision: before
   -
     name: "Roboão sucede a Salomão; o 1 Reis 11:43; reino é dividido; Jeroboão 1 Reis 12:19 começa a reinar em Israel 1 Reis 12:20"
-    year: "-997"
-    precision: "precise"
+    from:
+      year: -997
+      month:
+      day:
+      precision: precise
+    to:
+      year: -997
+      month:
+      day:
+      precision: precise
   -
     name: "Sisaque invade Judá e leva 1 Reis 14:25 tesouros do templo 1 Reis 14:26"
-    year: "-993"
-    precision: "precise"
+    from:
+      year: -993
+      month:
+      day:
+      precision: precise
+    to:
+      year: -993
+      month:
+      day:
+      precision: precise
   -
     name: "Abijão (Abias) sucede a Roboão como rei de Judá 1 Reis 15:1, 2"
-    year: "-980"
-    precision: "precise"
+    from:
+      year: -980
+      month:
+      day:
+      precision: precise
+    to:
+      year: -980
+      month:
+      day:
+      precision: precise
   -
     name: "Asa sucede a Abijão como rei de Judá 1 Reis 15:9, 10"
-    year: "-977"
-    precision: "precise"
+    from:
+      year: -977
+      month:
+      day:
+      precision: precise
+    to:
+      year: -977
+      month:
+      day:
+      precision: precise
   -
     name: "Nadabe sucede a Jeroboão como rei de Israel 1 Reis 14:20"
-    year: "-976"
-    precision: "about"
+    from:
+      year: -976
+      month:
+      day:
+      precision: about
+    to:
+      year: -976
+      month:
+      day:
+      precision: about
   -
     name: "Baasa sucede a Nadabe como rei de Israel 1 Reis 15:33"
-    year: "-975"
-    precision: "about"
+    from:
+      year: -975
+      month:
+      day:
+      precision: about
+    to:
+      year: -975
+      month:
+      day:
+      precision: about
   -
     name: "Elá sucede a Baasa como rei de Israel 1 Reis 16:8"
-    year: "-952"
-    precision: "about"
+    from:
+      year: -952
+      month:
+      day:
+      precision: about
+    to:
+      year: -952
+      month:
+      day:
+      precision: about
   -
     name: "Zinri sucede a Elá como rei de Israel 1 Reis 16:15 Onri e Tibni sucedem a Zinri como reis de Israel 1 Reis 16:21"
-    year: "-951"
-    precision: "about"
+    from:
+      year: -951
+      month:
+      day:
+      precision: about
+    to:
+      year: -951
+      month:
+      day:
+      precision: about
   -
     name: "Onri reina sozinho como rei 1 Reis 16:22 de Israel 1 Reis 16:23"
-    year: "-947"
-    precision: "about"
+    from:
+      year: -947
+      month:
+      day:
+      precision: about
+    to:
+      year: -947
+      month:
+      day:
+      precision: about
   -
     name: "Acabe sucede a Onri como rei de Israel 1 Reis 16:29"
-    year: "-940"
-    precision: "about"
+    from:
+      year: -940
+      month:
+      day:
+      precision: about
+    to:
+      year: -940
+      month:
+      day:
+      precision: about
   -
     name: "Jeosafá sucede a Asa como rei 1 Reis 22:41 de Judá 1 Reis 22:42"
-    year: "-936"
-    precision: "precise"
+    from:
+      year: -936
+      month:
+      day:
+      precision: precise
+    to:
+      year: -936
+      month:
+      day:
+      precision: precise
   -
     name: "Acazias sucede a Acabe como 1 Reis 22:51 rei único de Israel 1 Reis 22:52"
-    year: "-919"
-    precision: "about"
+    from:
+      year: -919
+      month:
+      day:
+      precision: about
+    to:
+      year: -919
+      month:
+      day:
+      precision: about
   -
     name: "Jeorão, de Israel, sucede a Acazias como rei único 2 Reis 3:1"
-    year: "-917"
-    precision: "about"
+    from:
+      year: -917
+      month:
+      day:
+      precision: about
+    to:
+      year: -917
+      month:
+      day:
+      precision: about
   -
     name: "Jeorão, de Judá, ‘torna-se rei’ junto com Jeosafá 2 Reis 8:16, 17"
-    year: "-913"
-    precision: "precise"
+    from:
+      year: -913
+      month:
+      day:
+      precision: precise
+    to:
+      year: -913
+      month:
+      day:
+      precision: precise
   -
     name: "Acazias sucede a Jeorão como rei de Judá 2 Reis 8:25, 26"
-    year: "-906"
-    precision: "about"
+    from:
+      year: -906
+      month:
+      day:
+      precision: about
+    to:
+      year: -906
+      month:
+      day:
+      precision: about
   -
     name: "A Rainha Atalia usurpa o trono de Judá 2 Reis 11:1-3 Jeú sucede a Jeorão como rei 2 Reis 9:24, 27; de Israel 2 Reis 10:36"
-    year: "-905"
-    precision: "about"
+    from:
+      year: -905
+      month:
+      day:
+      precision: about
+    to:
+      year: -905
+      month:
+      day:
+      precision: about
   -
     name: "Jeoás sucede a Acazias como rei de Judá 2 Reis 12:1"
-    year: "-898"
-    precision: "precise"
+    from:
+      year: -898
+      month:
+      day:
+      precision: precise
+    to:
+      year: -898
+      month:
+      day:
+      precision: precise
   -
     name: "Jeoacaz sucede a Jeú como rei de Israel 2 Reis 13:1"
-    year: "-876"
-    precision: "precise"
+    from:
+      year: -876
+      month:
+      day:
+      precision: precise
+    to:
+      year: -876
+      month:
+      day:
+      precision: precise
   -
     name: "Jeoás sucede a Jeoacaz como rei único de Israel 2 Reis 13:10"
-    year: "-859"
-    precision: "about"
+    from:
+      year: -859
+      month:
+      day:
+      precision: about
+    to:
+      year: -859
+      month:
+      day:
+      precision: about
   -
     name: "Amazias sucede a Jeoás como rei de Judá 2 Reis 14:1, 2"
-    year: "-858"
-    precision: "precise"
+    from:
+      year: -858
+      month:
+      day:
+      precision: precise
+    to:
+      year: -858
+      month:
+      day:
+      precision: precise
   -
     name: "Jeroboão II sucede a Jeoás como rei de Israel 2 Reis 14:23 Jonas termina o livro de Jonas 1:1, 2 Jonas"
-    year: "-844"
-    precision: "about"
+    from:
+      year: -844
+      month:
+      day:
+      precision: about
+    to:
+      year: -844
+      month:
+      day:
+      precision: about
   -
     name: "Uzias (Azarias) sucede a Amazias como rei de Judá 2 Reis 15:1, 2"
-    year: "-829"
-    precision: "precise"
+    from:
+      year: -829
+      month:
+      day:
+      precision: precise
+    to:
+      year: -829
+      month:
+      day:
+      precision: precise
   -
     name: "Possivelmente é escrito o livro de Joel Joel 1:1"
-    year: "-820"
-    precision: "about"
+    from:
+      year: -820
+      month:
+      day:
+      precision: about
+    to:
+      year: -820
+      month:
+      day:
+      precision: about
   -
     name: "Amós termina o livro de Amós 1:1 Amós"
-    year: "-804"
-    precision: "about"
+    from:
+      year: -804
+      month:
+      day:
+      precision: about
+    to:
+      year: -804
+      month:
+      day:
+      precision: about
   -
     name: "Zacarias reina como rei de Israel (6 meses) 2 Reis 15:8"
-    year: "-792"
-    precision: "about"
+    from:
+      year: -792
+      month:
+      day:
+      precision: about
+    to:
+      year: -792
+      month:
+      day:
+      precision: about
   -
     name: "Salum sucede a Zacarias 2 Reis 15:13 como rei de Israel 2 Reis 15:17 Menaém sucede a Salum como rei de Israel"
-    year: "-791"
-    precision: "about"
+    from:
+      year: -791
+      month:
+      day:
+      precision: about
+    to:
+      year: -791
+      month:
+      day:
+      precision: about
   -
     name: "Pecaías sucede a Menaém como rei de Israel 2 Reis 15:23"
-    year: "-780"
-    precision: "about"
+    from:
+      year: -780
+      month:
+      day:
+      precision: about
+    to:
+      year: -780
+      month:
+      day:
+      precision: about
   -
     name: "Peca sucede a Pecaías como rei de Israel 2 Reis 15:27"
-    year: "-778"
-    precision: "about"
+    from:
+      year: -778
+      month:
+      day:
+      precision: about
+    to:
+      year: -778
+      month:
+      day:
+      precision: about
   -
     name: "Isaías começa a profetizar Isa. 1:1; 6:1"
-    year: "-778"
-    precision: "about"
+    from:
+      year: -778
+      month:
+      day:
+      precision: about
+    to:
+      year: -778
+      month:
+      day:
+      precision: about
   -
     name: "Jotão sucede a Uzias (Azarias) como rei de Judá 2 Reis 15:32, 33"
-    year: "-777"
-    precision: "precise"
+    from:
+      year: -777
+      month:
+      day:
+      precision: precise
+    to:
+      year: -777
+      month:
+      day:
+      precision: precise
   -
     name: "Acaz sucede a Jotão como rei de Judá 2 Reis 16:1, 2"
-    year: "-761"
-    precision: "about"
+    from:
+      year: -761
+      month:
+      day:
+      precision: about
+    to:
+      year: -761
+      month:
+      day:
+      precision: about
   -
     name: "Oséias ‘começa a reinar’ em Israel 2 Reis 15:30"
-    year: "-758"
-    precision: "about"
+    from:
+      year: -758
+      month:
+      day:
+      precision: about
+    to:
+      year: -758
+      month:
+      day:
+      precision: about
   -
     name: "Ezequias sucede a Acaz como rei de Judá 2 Reis 18:1, 2"
-    year: "-745"
-    precision: "precise"
+    from:
+      year: -745
+      month:
+      day:
+      precision: precise
+    to:
+      year: -745
+      month:
+      day:
+      precision: precise
   -
     name: "Oséias termina o livro de Osé. 1:1 Oséias"
-    year: "-745"
-    precision: "after"
+    from:
+      year: -745
+      month:
+      day:
+      precision: after
+    to:
+      year: -745
+      month:
+      day:
+      precision: after
   -
     name: "A Assíria subjuga Israel, 2 Reis 17:6, 13 toma Samaria 2 Reis 17:18"
-    year: "-740"
-    precision: "precise"
+    from:
+      year: -740
+      month:
+      day:
+      precision: precise
+    to:
+      year: -740
+      month:
+      day:
+      precision: precise
   -
     name: "Senaqueribe invade Judá 2 Reis 18:13"
-    year: "-732"
-    precision: "precise"
+    from:
+      year: -732
+      month:
+      day:
+      precision: precise
+    to:
+      year: -732
+      month:
+      day:
+      precision: precise
   -
     name: "Isaías termina o livro de Isa. 1:1 Isaías"
-    year: "-732"
-    precision: "after"
+    from:
+      year: -732
+      month:
+      day:
+      precision: after
+    to:
+      year: -732
+      month:
+      day:
+      precision: after
   -
     name: "Miquéias termina o livro de Miquéias Miq. 1:1"
-    year: "-717"
-    precision: "before"
+    from:
+      year: -717
+      month:
+      day:
+      precision: before
+    to:
+      year: -717
+      month:
+      day:
+      precision: before
   -
     name: "Terminada a compilação de Provérbios Pro. 25:1"
-    year: "-717"
-    precision: "about"
+    from:
+      year: -717
+      month:
+      day:
+      precision: about
+    to:
+      year: -717
+      month:
+      day:
+      precision: about
   -
     name: "Manassés sucede a Ezequias como rei de Judá 2 Reis 21:1"
-    year: "-716"
-    precision: "precise"
+    from:
+      year: -716
+      month:
+      day:
+      precision: precise
+    to:
+      year: -716
+      month:
+      day:
+      precision: precise
   -
     name: "Amom sucede a Manassés como rei de Judá 2 Reis 21:19"
-    year: "-661"
-    precision: "precise"
+    from:
+      year: -661
+      month:
+      day:
+      precision: precise
+    to:
+      year: -661
+      month:
+      day:
+      precision: precise
   -
     name: "Josias sucede a Amom como rei de Judá 2 Reis 22:1"
-    year: "-659"
-    precision: "precise"
+    from:
+      year: -659
+      month:
+      day:
+      precision: precise
+    to:
+      year: -659
+      month:
+      day:
+      precision: precise
   -
     name: "Sofonias termina o livro de Sofonias Sof. 1:1"
-    year: "-648"
-    precision: "before"
+    from:
+      year: -648
+      month:
+      day:
+      precision: before
+    to:
+      year: -648
+      month:
+      day:
+      precision: before
   -
     name: "Jeremias é comissionado Jer. 1:1, 2 profeta Jer. 9, 10"
-    year: "-647"
-    precision: "precise"
+    from:
+      year: -647
+      month:
+      day:
+      precision: precise
+    to:
+      year: -647
+      month:
+      day:
+      precision: precise
   -
     name: "Naum termina o livro de Naum Naum 1:1"
-    year: "-632"
-    precision: "before"
+    from:
+      year: -632
+      month:
+      day:
+      precision: before
+    to:
+      year: -632
+      month:
+      day:
+      precision: before
   -
     name: "Nínive cai diante dos caldeus e medos Naum 3:7 Babilônia prestes a tornar-se a terceira potência mundial"
-    year: "-632"
-    precision: "precise"
+    from:
+      year: -632
+      month:
+      day:
+      precision: precise
+    to:
+      year: -632
+      month:
+      day:
+      precision: precise
   -
     name: "Jeoacaz, sucessor de Josias, reina em Judá 2 Reis 23:31 Jeoiaquim sucede a Jeoacaz como rei de Judá 2 Reis 23:36"
-    year: "-628"
-    precision: "precise"
+    from:
+      year: -628
+      month:
+      day:
+      precision: precise
+    to:
+      year: -628
+      month:
+      day:
+      precision: precise
   -
     name: "Habacuque termina o livro de Habacuque Hab. 1:1"
-    year: "-628"
-    precision: "about"
+    from:
+      year: -628
+      month:
+      day:
+      precision: about
+    to:
+      year: -628
+      month:
+      day:
+      precision: about
   -
     name: "Jer. 25:1"
-    year: "-625"
-    precision: "precise"
+    from:
+      year: -625
+      month:
+      day:
+      precision: precise
+    to:
+      year: -625
+      month:
+      day:
+      precision: precise
   -
     name: "Nabucodonosor faz de Jeoiaquim um rei tributário 2 Reis 24:1"
-    year: "-620"
-    precision: "precise"
+    from:
+      year: -620
+      month:
+      day:
+      precision: precise
+    to:
+      year: -620
+      month:
+      day:
+      precision: precise
   -
     name: "Joaquim torna-se rei depois de Jeoiaquim, em Judá 2 Reis 24:6, 8"
-    year: "-618"
-    precision: "precise"
+    from:
+      year: -618
+      month:
+      day:
+      precision: precise
+    to:
+      year: -618
+      month:
+      day:
+      precision: precise
   -
     name: "Nabucodonosor leva os primeiros cativos judeus a Dan. 1:1-4; Babilônia Zedequias é 2 Reis 24:12-18 constituído rei de Judá"
-    year: "-617"
-    precision: "precise"
+    from:
+      year: -617
+      month:
+      day:
+      precision: precise
+    to:
+      year: -617
+      month:
+      day:
+      precision: precise
   -
     name: "Ezequiel começa a profetizar Eze. 1:1-3"
-    year: "-613"
-    precision: "precise"
+    from:
+      year: -613
+      month:
+      day:
+      precision: precise
+    to:
+      year: -613
+      month:
+      day:
+      precision: precise
   -
     name: "Nabucodonosor ataca Judá pela terceira vez; começa o sítio de Jerusalém 2 Reis 25:1, 2"
-    year: "-609"
-    precision: "precise"
+    from:
+      year: -609
+      month:
+      day:
+      precision: precise
+    to:
+      year: -609
+      month:
+      day:
+      precision: precise
   -
     name: "No quinto mês (ab), o templo é arrasado e Jerusalém 2 Reis 25:8-10; destruída Jer. 52:12-14 No sétimo mês, judeus 2 Reis 25:25 abandonam Judá; começa a 2 Reis 25:26; contagem dos “tempos Luc. 21:24 designados das nações” Jeremias escreve Lamentações Introdução de Lam., LXX"
-    year: "-607"
-    precision: "precise"
+    from:
+      year: -607
+      month:
+      day:
+      precision: precise
+    to:
+      year: -607
+      month:
+      day:
+      precision: precise
   -
     name: "Obadias escreve o livro de Obd. 1 Obadias"
-    year: "-607"
-    precision: "about"
+    from:
+      year: -607
+      month:
+      day:
+      precision: about
+    to:
+      year: -607
+      month:
+      day:
+      precision: about
   -
     name: "Ezequiel termina o livro de Eze. 40:1 Ezequiel Eze. 29:17"
-    year: "-591"
-    precision: "about"
+    from:
+      year: -591
+      month:
+      day:
+      precision: about
+    to:
+      year: -591
+      month:
+      day:
+      precision: about
   -
     name: "Terminados os livros de 1 e Jer. 52:31; 2 Reis e Jeremias 2 Reis 25:27"
-    year: "-580"
-    precision: "precise"
+    from:
+      year: -580
+      month:
+      day:
+      precision: precise
+    to:
+      year: -580
+      month:
+      day:
+      precision: precise
   -
     name: "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
-    year: "-539"
-    precision: "precise"
+    from:
+      year: -539
+      month:
+      day:
+      precision: precise
+    to:
+      year: -539
+      month:
+      day:
+      precision: precise
   -
     name: "Entra em vigor o decreto de 2 Crô. 36:22 Ciro, o persa, que permite 2 Crô. 36:23 aos judeus retornar a Jer. 25:12 Jerusalém; termina a Jer. 29:10 desolação de 70 anos de Jerusalém"
-    year: "-537"
-    precision: "precise"
+    from:
+      year: -537
+      month:
+      day:
+      precision: precise
+    to:
+      year: -537
+      month:
+      day:
+      precision: precise
   -
     name: "Daniel termina o livro de Dan. 10:1 Daniel"
-    year: "-536"
-    precision: "about"
+    from:
+      year: -536
+      month:
+      day:
+      precision: about
+    to:
+      year: -536
+      month:
+      day:
+      precision: about
   -
     name: "Zorobabel lança o alicerce do templo Esd. 3:8-10"
-    year: "-536"
-    precision: "precise"
+    from:
+      year: -536
+      month:
+      day:
+      precision: precise
+    to:
+      year: -536
+      month:
+      day:
+      precision: precise
   -
     name: "A construção do templo é Esd. 4:23, 24 proibida"
-    year: "-522"
-    precision: "precise"
+    from:
+      year: -522
+      month:
+      day:
+      precision: precise
+    to:
+      year: -522
+      month:
+      day:
+      precision: precise
   -
     name: "Ageu termina o livro de Ageu Ageu 1:1"
-    year: "-520"
-    precision: "precise"
+    from:
+      year: -520
+      month:
+      day:
+      precision: precise
+    to:
+      year: -520
+      month:
+      day:
+      precision: precise
   -
     name: "Zacarias termina o livro de Zacarias Zac. 1:1"
-    year: "-518"
-    precision: "precise"
+    from:
+      year: -518
+      month:
+      day:
+      precision: precise
+    to:
+      year: -518
+      month:
+      day:
+      precision: precise
   -
     name: "Zorobabel termina o segundo Esd. 6:14, 15 templo"
-    year: "-515"
-    precision: "precise"
+    from:
+      year: -515
+      month:
+      day:
+      precision: precise
+    to:
+      year: -515
+      month:
+      day:
+      precision: precise
   -
     name: "Mordecai termina o livro de Est. 3:7; 9:32 Ester"
-    year: "-475"
-    precision: "about"
+    from:
+      year: -475
+      month:
+      day:
+      precision: about
+    to:
+      year: -475
+      month:
+      day:
+      precision: about
   -
     name: "Esdras e sacerdotes retornam Esd. 7:7 a Jerusalém"
-    year: "-468"
-    precision: "precise"
+    from:
+      year: -468
+      month:
+      day:
+      precision: precise
+    to:
+      year: -468
+      month:
+      day:
+      precision: precise
   -
     name: "Esdras termina os livros Esd. 1:1; de 1 e 2 Crônicas e 2 Crô. 36:22 Esdras;compilação final dos Salmos"
-    year: "-460"
-    precision: "about"
+    from:
+      year: -460
+      month:
+      day:
+      precision: about
+    to:
+      year: -460
+      month:
+      day:
+      precision: about
   -
     name: "Neemias reconstrói as Nee. 1:1 muralhas de Jerusalém; Nee. 2:1, 11 começa a cumprir-se a Nee. 6:15 profecia das 70 semanas Dan. 9:24"
-    year: "-455"
-    precision: "precise"
+    from:
+      year: -455
+      month:
+      day:
+      precision: precise
+    to:
+      year: -455
+      month:
+      day:
+      precision: precise
   -
     name: "Neemias termina o livro de Nee. 5:14 Neemias Malaquias termina o livro Mal. 1:1 de Malaquias"
-    year: "-443"
-    precision: "after"
+    from:
+      year: -443
+      month:
+      day:
+      precision: after
+    to:
+      year: -443
+      month:
+      day:
+      precision: after
   -
     name: "A reconstrução de Jerusalém evidentemente é terminada Dan. 9:25"
-    year: "-406"
-    precision: "precise"
+    from:
+      year: -406
+      month:
+      day:
+      precision: precise
+    to:
+      year: -406
+      month:
+      day:
+      precision: precise
   -
     name: "Grécia, a quinta potência mundial, domina a Judéia Dan. 8:21"
-    year: "-332"
-    precision: "precise"
+    from:
+      year: -332
+      month:
+      day:
+      precision: precise
+    to:
+      year: -332
+      month:
+      day:
+      precision: precise
   -
     name: "Começa a ser feita a Septuaginta grega"
-    year: "-280"
-    precision: "about"
+    from:
+      year: -280
+      month:
+      day:
+      precision: about
+    to:
+      year: -280
+      month:
+      day:
+      precision: about
   -
     name: "Rededicação do templo após a profanação pela idolatria grega; Festividade da Dedicação João 10:22"
-    year: "-165"
-    precision: "precise"
+    from:
+      year: -165
+      month:
+      day:
+      precision: precise
+    to:
+      year: -165
+      month:
+      day:
+      precision: precise
   -
     name: "Roma, sexta potência mundial, João 19:15 domina Jerusalém Rev. 17:10"
-    year: "-63"
-    precision: "precise"
+    from:
+      year: -63
+      month:
+      day:
+      precision: precise
+    to:
+      year: -63
+      month:
+      day:
+      precision: precise
   -
     name: "Herodes (designado rei por Roma) toma Jerusalém de assalto"
-    year: "-37"
-    precision: "about"
+    from:
+      year: -37
+      month:
+      day:
+      precision: about
+    to:
+      year: -37
+      month:
+      day:
+      precision: about
   -
     name: "Nascimento de João, o Batizador, e de Jesus Luc. 1:60; 2:7"
-    year: "2"
-    precision: "precise"
+    from:
+      year: 2
+      month:
+      day:
+      precision: precise
+    to:
+      year: 2
+      month:
+      day:
+      precision: precise
   -
     name: "João e Jesus começam seus ministérios Luc. 3:1, 2, 23"
-    year: "29"
-    precision: "precise"
+    from:
+      year: 29
+      month:
+      day:
+      precision: precise
+    to:
+      year: 29
+      month:
+      day:
+      precision: precise
   -
     name: "14 de nisã: Jesus torna-se sacrifício, fornecendo a base Luc. 22:20 para o novo pacto; é pregado Luc. 23:33 na estaca 16 de nisã: ressurreição de Mat. 28:1-10 Jesus 6 de sivã, Pentecostes: derramamento do espírito; Pedro abre o caminho aos judeus para a congregação cristã Atos 2:1-17, 38"
-    year: "33"
-    precision: "precise"
+    from:
+      year: 33
+      month:
+      day:
+      precision: precise
+    to:
+      year: 33
+      month:
+      day:
+      precision: precise
   -
     name: "Fim das 70 semanas de anos; Dan. 9:24-27 Pedro visita Cornélio, o Atos 10:1, 45 primeiro incircunciso das nações a ingressar na congregação cristã"
-    year: "36"
-    precision: "precise"
+    from:
+      year: 36
+      month:
+      day:
+      precision: precise
+    to:
+      year: 36
+      month:
+      day:
+      precision: precise
   -
     name: "Paulo começa sua primeira viagem missionária Atos 13:1-14:28"
-    year: "41"
-    precision: "about"
+    from:
+      year: 41
+      month:
+      day:
+      precision: about
+    to:
+      year: 41
+      month:
+      day:
+      precision: about
   -
     name: "Segunda viagem missionária Atos 15:36-18:22 de Paulo"
-    year: "49"
-    precision: "about"
+    from:
+      year: 49
+      month:
+      day:
+      precision: about
+    to:
+      year: 49
+      month:
+      day:
+      precision: about
   -
     name: "Paulo escreve 1 Tessalonicenses de Corinto 1 Tes. 1:1"
-    year: "50"
-    precision: "about"
+    from:
+      year: 50
+      month:
+      day:
+      precision: about
+    to:
+      year: 50
+      month:
+      day:
+      precision: about
   -
     name: "Terceira viagem missionária de Paulo Atos 18:23-21:19"
-    year: "51"
-    precision: "about"
+    from:
+      year: 51
+      month:
+      day:
+      precision: about
+    to:
+      year: 51
+      month:
+      day:
+      precision: about
   -
     name: "Paulo escreve 1 Coríntios 1 Cor. 15:32 de Éfeso e 2 Coríntios de 2 Cor. 2:12, 13 Macedônia"
-    year: "55"
-    precision: "about"
+    from:
+      year: 55
+      month:
+      day:
+      precision: about
+    to:
+      year: 55
+      month:
+      day:
+      precision: about
   -
     name: "De Roma Paulo escreve: Efésios Efé. 3:1 Filipenses Filêm. 4:22 Colossenses Col. 4:18 Filêmon Filêm. 1"
-    year: "56"
-    precision: "about"
+    from:
+      year: 56
+      month:
+      day:
+      precision: about
+    to:
+      year: 56
+      month:
+      day:
+      precision: about
   -
     name: "Paulo escreve a carta aos Heb. 13:24 hebreus, de Roma Heb. 10:34 Lucas termina o livro de Atos, em, Roma"
-    year: "61"
-    precision: "about"
+    from:
+      year: 61
+      month:
+      day:
+      precision: about
+    to:
+      year: 61
+      month:
+      day:
+      precision: about
   -
     name: "Pedro escreve 1 Pedro, de 1 Ped. 1:1 Babilônia 1 Ped. 5:13"
-    year: "62"
-    precision: "before"
+    from:
+      year: 62
+      month:
+      day:
+      precision: before
+    to:
+      year: 62
+      month:
+      day:
+      precision: before
   -
     name: "Pedro escreve 2 Pedro, de Babilônia (?) 2 Ped. 1:1"
-    year: "64"
-    precision: "about"
+    from:
+      year: 64
+      month:
+      day:
+      precision: about
+    to:
+      year: 64
+      month:
+      day:
+      precision: about
   -
     name: "Paulo escreve 2 Timóteo, 2 Tim. 4:16-18 de Roma Judas, irmão de Jesus, escreve “Judas” Judas 1, 17, 18"
-    year: "65"
-    precision: "about"
+    from:
+      year: 65
+      month:
+      day:
+      precision: about
+    to:
+      year: 65
+      month:
+      day:
+      precision: about
   -
     name: "Jerusalém e seu templo Dan. 9:27; destruídos pelos romanos Mat. 23:37, 38; Luc. 19:42-44"
-    year: "70"
-    precision: "precise"
+    from:
+      year: 70
+      month:
+      day:
+      precision: precise
+    to:
+      year: 70
+      month:
+      day:
+      precision: precise
   -
     name: "João, em Patmos, escreve Revelação Rev. 1:9"
-    year: "96"
-    precision: "about"
+    from:
+      year: 96
+      month:
+      day:
+      precision: about
+    to:
+      year: 96
+      month:
+      day:
+      precision: about
   -
     name: "João escreve o Evangelho chamado “João” e suas cartas 1, 2, e 3 João; terminada a escrita da Bíblia João 21:22, 23"
-    year: "98"
-    precision: "about"
+    from:
+      year: 98
+      month:
+      day:
+      precision: about
+    to:
+      year: 98
+      month:
+      day:
+      precision: about
   -
     name: "Morre João, o último dos apóstolos 2 Tes. 2:7"
-    year: "100"
-    precision: "about"
+    from:
+      year: 100
+      month:
+      day:
+      precision: about
+    to:
+      year: 100
+      month:
+      day:
+      precision: about
