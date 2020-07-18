@@ -18,7 +18,7 @@ RSpec.describe Helpers::TxtParser do
   end
 
   it 'parses precision correctly' do
-    expect(collect(:precision)).to eq([
+    expect(collect(:from, :precision)).to eq([
       'precise', # 4026 AEC event 1
       'after',   # d. 4026 AEC event 2
       'before',  # a. 3896 AEC event 3
@@ -31,7 +31,7 @@ RSpec.describe Helpers::TxtParser do
   end
 
   it 'parses year correctly' do
-    expect(collect(:year)).to eq([
+    expect(collect(:to, :year)).to eq([
       -4026, # 4026 AEC event 1
       -4026, # d. 4026 AEC event 2
       -3896, # a. 3896 AEC event 3
@@ -56,7 +56,7 @@ RSpec.describe Helpers::TxtParser do
     ])
   end
 
-  def collect(key)
-    parsed.map { |item| item[key] }
+  def collect(*keys)
+    parsed.map { |item| item.dig(*keys) }
   end
 end

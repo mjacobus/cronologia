@@ -11,12 +11,16 @@ module Helpers
     private
 
     def parse_line(line)
-      {
-        name: name(line),
+      time = {
         year: year(line),
         month: month(line),
         day: day(line),
         precision: precision(line)
+      }
+      {
+        name: name(line),
+        from: time.dup,
+        to: time.dup
       }.compact
     end
 
