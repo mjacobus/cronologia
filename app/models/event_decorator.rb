@@ -24,7 +24,7 @@ class EventDecorator
       return "#{year} EC"
     end
 
-    "#{year * -1} EC"
+    "#{year * -1} AEC"
   end
 
   def to_s
