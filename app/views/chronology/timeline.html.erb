@@ -4,7 +4,7 @@
   <div class="line">
     <% -4100.upto(2200) do |number| %>
       <% if number % 200 == 0 %>
-        <span class="year"><%= Year.new(number) %></span>
+        <span class="year"><%= EventDate.new(year: number, precision: 'precise') %></span>
       <% end %>
     <% end %>
   </div>
