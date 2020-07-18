@@ -265,14 +265,17 @@ events:
       day:
       precision: precise
   -
-    name: "Nascimento de Isaque, o Gên. 21:2, 5; herdeiro legítimo; começo dos Atos 13:17-20 ‘cerca de 450 anos’"
+    name: "Isaque"
+    description_lines:
+      - "Nascimento de Isaque, o Gên. 21:2, 5; herdeiro legítimo; começo dos Atos 13:17-20 ‘cerca de 450 anos’"
+      - "Morte de Isaque Gên. 35:28, 29"
     from:
       year: -1918
       month:
       day:
       precision: precise
     to:
-      year: -1918
+      year: -1738
       month:
       day:
       precision: precise
@@ -408,18 +411,6 @@ events:
       precision: precise
     to:
       year: -1750
-      month:
-      day:
-      precision: precise
-  -
-    name: "Morte de Isaque Gên. 35:28, 29"
-    from:
-      year: -1738
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1738
       month:
       day:
       precision: precise
