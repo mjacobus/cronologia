@@ -1,8 +1,8 @@
+tags:
+  - World Power
 events:
   -
     name: "O Egito alcança preeminência como primeira potência Êxo. 1:8 mundial"
-    tags:
-      - World Power
     from:
       year: -1600
       month:
@@ -15,8 +15,6 @@ events:
       precision: after
   -
     name: "Babilônia (terceira potência mundial)"
-    tags:
-      - World Power
     description_lines:
       - "Nínive cai diante dos caldeus e medos Naum 3:7 Babilônia prestes a tornar-se a terceira potência mundial"
       - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
@@ -32,8 +30,6 @@ events:
       precision: precise
   -
     name: "Medo-Pérsia (quarta potência mundial)"
-    tags:
-      - World Power
     description_lines:
       - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
     from:
@@ -48,8 +44,6 @@ events:
       precision: precise
   -
     name: "Grécia (quinta potência mundial)"
-    tags:
-      - World Power
     description_lines:
       - "Grécia, a quinta potência mundial, domina a Judéia Dan. 8:21"
     from:
@@ -64,8 +58,6 @@ events:
       precision: precise
   -
     name: "Roma (sexta potência mundial)"
-    tags:
-      - World Power
     description_lines:
       - "Roma, sexta potência mundial, João 19:15 domina Jerusalém Rev. 17:10"
     todos:
