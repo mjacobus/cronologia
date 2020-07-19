@@ -1,3 +1,8 @@
+// https://rossta.net/blog/webpacker-with-bootstrap.html
+// $body-bg: aliceblue;
+// $body-color: #111;
+@import "~bootstrap/scss/bootstrap.scss";
+
 #top-menu {
   background: #ddd;
   padding: 10px;
@@ -52,3 +57,4 @@
     text-align: center;
   }
 }
+
