@@ -202,7 +202,8 @@ events:
     description_lines:
       - "10 anos mais nova que Abraão"
       - "Morte de Sara Gên. 17:17; Gên. 23:1"
-    todo: Confirmar data de nascimento
+    todos:
+      - Confirmar data de nascimento
     from:
       year: -2008
       month:
