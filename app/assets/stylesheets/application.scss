@@ -66,15 +66,18 @@
     }
 
     &.world-power {
+      border-color: red;
       background: red;
       color: black;
     }
 
     &.kingdom {
+      border-color: skyblue;
       background: skyblue;
     }
 
     &.bible-character {
+      border-color: lightsteelblue;
       background: lightsteelblue;
     }
 
