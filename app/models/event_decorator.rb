@@ -52,7 +52,11 @@ class EventDecorator
 
   def css_classes
     classes = tags.map(&:to_param)
-    classes += ["from-#{from.precision}", "to-#{to.precision}"]
+    classes += [
+      "from-#{from.precision}",
+      "to-#{to.precision}",
+      "length-#{length_in_years}"
+    ]
 
     if length_in_years.positive?
       classes << 'long-event'
