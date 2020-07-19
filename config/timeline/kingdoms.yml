@@ -58,3 +58,17 @@ events:
       month:
       day:
       precision: precise
+  -
+    name: "Asa rei de Judá"
+    description_lines:
+      - "Asa sucede a Abijão como rei de Judá 1 Reis 15:9, 10"
+    from:
+      year: -977
+      month:
+      day:
+      precision: precise
+    to:
+      year: -936
+      month:
+      day:
+      precision: precise
