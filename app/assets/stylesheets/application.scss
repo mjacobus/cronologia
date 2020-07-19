@@ -49,6 +49,8 @@
   padding-left: 10px;
   margin-bottom: 2px;
   color: gray;
+  overflow: visible;
+  white-space: nowrap;
   // TODO: Fix tooltips in a way that .line will stay sticky
   // float: left;
   // clear: both;

@@ -670,14 +670,17 @@ events:
       day:
       precision: precise
   -
-    name: "Davi torna-se rei sobre todo o Israel; faz de Jerusalém sua capital 2 Sam. 5:3-7"
+    name: "Davi reina sobre todo o Israel"
+    description_items:
+      - "Davi torna-se rei sobre todo o Israel; faz de Jerusalém sua capital 2 Sam. 5:3-7"
+      - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
     from:
       year: -1070
       month:
       day:
       precision: precise
     to:
-      year: -1070
+      year: -1037
       month:
       day:
       precision: precise

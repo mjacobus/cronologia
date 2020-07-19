@@ -4,6 +4,7 @@
   <% else %>
     <div><%= event.from %></div>
   <% end %>
+  <div><%= event.name %></div>
   <br>
   <% event.description_lines.each do |line| %>
     <div>- <%= line %></div>
