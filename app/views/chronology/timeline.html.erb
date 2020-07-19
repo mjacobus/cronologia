@@ -19,7 +19,11 @@
            class="event <%= event.css_classes %>"
            style="<%= event.inline_css  %>"
            title="<%= render partial: 'event_tooltip', locals: { event: event } %>">
-        <%= event.name  %>
+          <% if event.lengthy? %>
+            <div><%= event.name %></div>
+          <% else %>
+            <div><small><%= event.from %></small> - <%= event.name %></div>
+          <% end %>
       </div>
     <% end %>
   </div>
