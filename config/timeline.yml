@@ -4,6 +4,8 @@ events:
     description_lines:
       - "Criação de Adão Gên. 2:7"
       - "Morte de Adão Gên. 5:5"
+    tags:
+      - Bible Character
     from:
       year: -4026
       month:
@@ -52,6 +54,8 @@ events:
       precision: precise
   -
     name: "Enoque"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento do justo Enoque Gên. 5:18"
       - "Transferência de Enoque; Gên. 5:23, 24; finda seu período de Judas 14 profetizar"
@@ -67,6 +71,8 @@ events:
       precision: precise
   -
     name: "Metusalém"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Metusalém Gên. 5:21"
       - "Morte de Metusalém Gên. 5:27 Caem as águas do Dilúvio Gên. 7:6, 11 (outono, hem. norte)."
@@ -94,6 +100,8 @@ events:
       precision: precise
   -
     name: "Noé"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Noé Gên. 5:28, 29"
       - "Morte de Noé Gên. 9:28, 29"
@@ -133,6 +141,8 @@ events:
       precision: precise
   -
     name: "Sem"
+    tags:
+      - Bible Character
     description_lines:
     - "Nascimento de Sem Gên. 7:11; Gên. 11:10"
     - "Morte de Sem Gên. 11:11"
@@ -184,6 +194,8 @@ events:
       precision: after
   -
     name: "Abraão"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Abraão Gên. 11:26, 32; Gên. 12:4"
       - "Morte de Abraão Gên. 25:7"
@@ -199,6 +211,8 @@ events:
       precision: precise
   -
     name: "Sara"
+    tags:
+      - Bible Character
     description_lines:
       - "10 anos mais nova que Abraão"
       - "Morte de Sara Gên. 17:17; Gên. 23:1"
@@ -240,6 +254,8 @@ events:
       precision: before
   -
     name: "Ismael"
+    tags:
+      - Bible Character
     description_lines:
       - "Nasce Ismael Gên. 16:15, 16"
       - "Morte de Ismael Gên. 25:17"
@@ -267,6 +283,8 @@ events:
       precision: precise
   -
     name: "Isaque"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Isaque, o Gên. 21:2, 5; herdeiro legítimo; começo dos Atos 13:17-20 ‘cerca de 450 anos’"
       - "Morte de Isaque Gên. 35:28, 29"
@@ -306,6 +324,8 @@ events:
       precision: precise
   -
     name: "Jacó"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Esaú e Jacó Gên. 25:26"
       - "Morte de Jacó Gên. 47:28"
@@ -465,6 +485,8 @@ events:
       precision: before
   -
     name: "Moisés"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Moisés Êxo. 2:2, 10"
       - "Moisés morre no Mte. Nebo, Deut. 34:1,5,7 em Moabe Israel entra em Canaã, sob Jos. 4:19 Josué"
@@ -600,6 +622,8 @@ events:
       precision: precise
   -
     name: "Davi"
+    tags:
+      - Bible Character
     description_lines:
       - "Nascimento de Davi em Belém 1 Sam. 16:1"
       - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
@@ -1637,6 +1661,8 @@ events:
       precision: precise
   -
     name: "O Egito alcança preeminência como primeira potência Êxo. 1:8 mundial"
+    tags:
+      - World Power
     from:
       year: -1600
       month:
@@ -1649,6 +1675,8 @@ events:
       precision: after
   -
     name: "Babilônia (terceira potência mundial)"
+    tags:
+      - World Power
     description_lines:
       - "Nínive cai diante dos caldeus e medos Naum 3:7 Babilônia prestes a tornar-se a terceira potência mundial"
       - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
@@ -1664,6 +1692,8 @@ events:
       precision: precise
   -
     name: "Medo-Pérsia (quarta potência mundial)"
+    tags:
+      - World Power
     description_lines:
       - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
     from:
@@ -1678,6 +1708,8 @@ events:
       precision: precise
   -
     name: "Grécia (quinta potência mundial)"
+    tags:
+      - World Power
     description_lines:
       - "Grécia, a quinta potência mundial, domina a Judéia Dan. 8:21"
     from:
@@ -1692,6 +1724,8 @@ events:
       precision: precise
   -
     name: "Roma (sexta potência mundial)"
+    tags:
+      - World Power
     description_lines:
       - "Roma, sexta potência mundial, João 19:15 domina Jerusalém Rev. 17:10"
     todos:

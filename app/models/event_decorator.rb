@@ -13,16 +13,20 @@ class EventDecorator
     @event.from
   end
 
+  def to
+    @event.to
+  end
+
+  def tags
+    @event.tags
+  end
+
   def description_lines
     @event.description_lines
   end
 
   def pending_checks?
     @event.pending_checks?
-  end
-
-  def to
-    @event.to
   end
 
   def to_s
@@ -47,7 +51,8 @@ class EventDecorator
   end
 
   def css_classes
-    classes = []
+    classes = tags.map(&:to_param)
+    classes += ["from-#{from.precision}", "to-#{to.precision}"]
 
     if length_in_years.positive?
       classes << 'long-event'

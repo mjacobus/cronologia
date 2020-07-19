@@ -60,9 +60,29 @@
     border-right: 1px solid gray;
     border-color: gold;
     text-align: center;
-  }
 
-  &.pending-checks {
-    background: yellow;
+    &.pending-checks {
+      background: yellow;
+    }
+
+    &.world-power {
+      background: red;
+      color: black;
+    }
+    &.bible-character {
+      background: lightsteelblue;
+    }
+
+    &.from-precise.to-precise {
+      border-radius: 0;
+    }
+
+    &.from-precise {
+      border-radius: 0 20px 0 0;
+    }
+
+    &.to-precise {
+      border-radius: 0 0 0 20px;
+    }
   }
 }
