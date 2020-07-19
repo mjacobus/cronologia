@@ -628,6 +628,21 @@ events:
       day:
       precision: about
   -
+    name: "Reinado de Salomão"
+    description_lines:
+      - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
+      - "Roboão sucede a Salomão; o 1 Reis 11:43; reino é dividido; Jeroboão 1 Reis 12:19 começa a reinar em Israel 1 Reis 12:20"
+    from:
+      year: -1037
+      month:
+      day:
+      precision: about
+    to:
+      year: -997
+      month:
+      day:
+      precision: precise
+  -
     name: "Samuel termina o livro de Juí. 21:25 Juízes"
     from:
       year: -1100
