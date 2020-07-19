@@ -679,14 +679,16 @@ events:
       day:
       precision: about
   -
-    name: "Davi torna-se rei de Judá em Hébron 2 Sam. 2:4"
+    name: "Davi Reina Judá"
+    description_lines:
+      - "Davi torna-se rei de Judá em Hébron 2 Sam. 2:4"
     from:
       year: -1077
       month:
       day:
       precision: precise
     to:
-      year: -1077
+      year: -1070
       month:
       day:
       precision: precise
