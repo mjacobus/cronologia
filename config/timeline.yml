@@ -721,21 +721,12 @@ events:
       day:
       precision: precise
   -
-    name: "Salomão começa a construção do templo 1 Reis 6:1"
+    name: "Construção do templo"
+    description_lines:
+      - "Salomão começa a construção do templo 1 Reis 6:1"
+      - "Terminada a construção do templo em Jerusalém 1 Reis 6:38"
     from:
       year: -1034
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1034
-      month:
-      day:
-      precision: precise
-  -
-    name: "Terminada a construção do templo em Jerusalém 1 Reis 6:38"
-    from:
-      year: -1027
       month:
       day:
       precision: precise
