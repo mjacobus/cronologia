@@ -7,7 +7,6 @@
 // require("turbolinks").start()
 // require("@rails/activestorage").start()
 // require("channels")
-import 'css/site'
 import $ from 'jquery'
 import 'popper.js'
 import 'bootstrap'
