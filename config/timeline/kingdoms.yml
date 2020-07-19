@@ -28,3 +28,31 @@ events:
       month:
       day:
       precision: precise
+  -
+    name: "Roboão rei de Judá"
+    description_items:
+      - "Roboão sucede a Salomão; o 1 Reis 11:43; reino é dividido; Jeroboão 1 Reis 12:19 começa a reinar em Israel 1 Reis 12:20"
+    from:
+      year: -997
+      month:
+      day:
+      precision: precise
+    to:
+      year: -980
+      month:
+      day:
+      precision: precise
+  -
+    name: "Abijão (Abias) rei de Judá"
+    description_items:
+      - "Abijão (Abias) sucede a Roboão como rei de Judá 1 Reis 15:1, 2"
+    from:
+      year: -980
+      month:
+      day:
+      precision: precise
+    to:
+      year: -977
+      month:
+      day:
+      precision: precise
