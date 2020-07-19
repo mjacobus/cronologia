@@ -132,6 +132,18 @@ events:
       day:
       precision: before
   -
+    name: "Feito pacto da circuncisão Gên. 17:1,10, Julgamento de Sodoma e Gên. 17:24 Gomorra Gên. 19:24"
+    from:
+      year: -1919
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1919
+      month:
+      day:
+      precision: precise
+  -
     name: "Isaque é desmamado; Ismael é Gên. 21:8; despedido; começo da aflição Gên. 15:13; de 400 anos Atos 7:6"
     from:
       year: -1913

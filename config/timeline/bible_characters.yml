@@ -109,23 +109,6 @@ events:
       day:
       precision: precise
   -
-    name: "Davi"
-    description_lines:
-      - "Nascimento de Davi em Belém 1 Sam. 16:1"
-      - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
-    todos:
-      - "Verificar a data da morte de Davi"
-    from:
-      year: -1107
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1037
-      month:
-      day:
-      precision: about
-  -
     name: "Ismael"
     description_lines:
       - "Nasce Ismael Gên. 16:15, 16"
@@ -137,18 +120,6 @@ events:
       precision: precise
     to:
       year: -1795
-      month:
-      day:
-      precision: precise
-  -
-    name: "Feito pacto da circuncisão Gên. 17:1,10, Julgamento de Sodoma e Gên. 17:24 Gomorra Gên. 19:24"
-    from:
-      year: -1919
-      month:
-      day:
-      precision: precise
-    to:
-      year: -1919
       month:
       day:
       precision: precise
@@ -197,6 +168,23 @@ events:
       month:
       day:
       precision: precise
+  -
+    name: "Davi"
+    description_lines:
+      - "Nascimento de Davi em Belém 1 Sam. 16:1"
+      - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
+    todos:
+      - "Verificar a data da morte de Davi"
+    from:
+      year: -1107
+      month:
+      day:
+      precision: precise
+    to:
+      year: -1037
+      month:
+      day:
+      precision: about
   -
     name: "Jesus"
     from:
