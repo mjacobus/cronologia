@@ -17,6 +17,10 @@ class EventDecorator
     @event.description_lines
   end
 
+  def pending_checks?
+    @event.pending_checks?
+  end
+
   def to
     @event.to
   end
@@ -47,6 +51,10 @@ class EventDecorator
 
     if length_in_years.positive?
       classes << 'long-event'
+    end
+
+    if pending_checks?
+      classes << 'pending-checks'
     end
 
     classes.join(' ')

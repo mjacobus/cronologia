@@ -61,5 +61,9 @@
     border-color: gold;
     text-align: center;
   }
+
+  &.pending-checks {
+    background: yellow;
+  }
 }
 
