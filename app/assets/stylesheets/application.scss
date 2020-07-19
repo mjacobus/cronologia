@@ -1,18 +1,62 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+// https://rossta.net/blog/webpacker-with-bootstrap.html
+// $body-bg: aliceblue;
+// $body-color: #111;
+@import "bootstrap/scss/bootstrap.scss";
 
-@import "bootstrap"
+#top-menu {
+  background: #ddd;
+  padding: 10px;
+  margin-bottom: 30px;
+
+  a {
+    padding: 10px;
+  }
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.timeline {
+  width: 8000px;
+  color: blue;
+
+  .line {
+    width: 7000px;
+    height: 20px;
+    position: sticky;
+    border-bottom: 1px solid gray;
+    top: 150px;
+    padding-left: 100px;
+
+    .year {
+      width: 200px;
+      float: left;
+      border-left: 1px solid gray;
+      padding-left: 10px;
+      padding-bottom: 4px;
+    }
+  }
+}
+
+.events {
+  padding-top: 50px;
+  padding-bottom: 2000px;
+}
+
+.event {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+  margin-bottom: 2px;
+  color: gray;
+  float: left;
+  clear: both;
+
+  &.long-event {
+    background: gold;
+    border-right: 1px solid gray;
+    border-color: gold;
+    text-align: center;
+  }
+}
 
