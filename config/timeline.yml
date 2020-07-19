@@ -464,18 +464,6 @@ events:
       day:
       precision: before
   -
-    name: "O Egito alcança preeminência como primeira potência Êxo. 1:8 mundial"
-    from:
-      year: -1600
-      month:
-      day:
-      precision: after
-    to:
-      year: -1600
-      month:
-      day:
-      precision: after
-  -
     name: "Moisés"
     description_lines:
       - "Nascimento de Moisés Êxo. 2:2, 10"
@@ -1323,18 +1311,6 @@ events:
       day:
       precision: before
   -
-    name: "Nínive cai diante dos caldeus e medos Naum 3:7 Babilônia prestes a tornar-se a terceira potência mundial"
-    from:
-      year: -632
-      month:
-      day:
-      precision: precise
-    to:
-      year: -632
-      month:
-      day:
-      precision: precise
-  -
     name: "Jeoacaz, sucessor de Josias, reina em Judá 2 Reis 23:31 Jeoiaquim sucede a Jeoacaz como rei de Judá 2 Reis 23:36"
     from:
       year: -628
@@ -1487,18 +1463,6 @@ events:
       precision: precise
     to:
       year: -580
-      month:
-      day:
-      precision: precise
-  -
-    name: "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
-    from:
-      year: -539
-      month:
-      day:
-      precision: precise
-    to:
-      year: -539
       month:
       day:
       precision: precise
@@ -1672,9 +1636,38 @@ events:
       day:
       precision: precise
   -
-    name: "Grécia, a quinta potência mundial, domina a Judéia Dan. 8:21"
+    name: "O Egito alcança preeminência como primeira potência Êxo. 1:8 mundial"
     from:
-      year: -332
+      year: -1600
+      month:
+      day:
+      precision: after
+    to:
+      year: -1600
+      month:
+      day:
+      precision: after
+  -
+    name: "Babilônia (terceira potência mundial)"
+    description_lines:
+      - "Nínive cai diante dos caldeus e medos Naum 3:7 Babilônia prestes a tornar-se a terceira potência mundial"
+      - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
+    from:
+      year: -632
+      month:
+      day:
+      precision: precise
+    to:
+      year: -539
+      month:
+      day:
+      precision: precise
+  -
+    name: "Medo-Pérsia (quarta potência mundial)"
+    description_lines:
+      - "Babilônia cai diante dos medos e persas; Medo-Pérsia torna-se a quarta potência mundial Dan. 5:30, 31"
+    from:
+      year: -539
       month:
       day:
       precision: precise
@@ -1683,6 +1676,36 @@ events:
       month:
       day:
       precision: precise
+  -
+    name: "Grécia (quinta potência mundial)"
+    description_lines:
+      - "Grécia, a quinta potência mundial, domina a Judéia Dan. 8:21"
+    from:
+      year: -332
+      month:
+      day:
+      precision: precise
+    to:
+      year: -63
+      month:
+      day:
+      precision: precise
+  -
+    name: "Roma (sexta potência mundial)"
+    description_lines:
+      - "Roma, sexta potência mundial, João 19:15 domina Jerusalém Rev. 17:10"
+    todos:
+      - "Ver quando a sexta potência deixou de ser potência"
+    from:
+      year: -63
+      month:
+      day:
+      precision: precise
+    to:
+      year: 98
+      month:
+      day:
+      precision: after
   -
     name: "Começa a ser feita a Septuaginta grega"
     from:
@@ -1704,18 +1727,6 @@ events:
       precision: precise
     to:
       year: -165
-      month:
-      day:
-      precision: precise
-  -
-    name: "Roma, sexta potência mundial, João 19:15 domina Jerusalém Rev. 17:10"
-    from:
-      year: -63
-      month:
-      day:
-      precision: precise
-    to:
-      year: -63
       month:
       day:
       precision: precise
