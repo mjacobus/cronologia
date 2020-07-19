@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
+require 'rails_helper'
 
-RSpec.describe Timeline do
-  describe '#from_yaml_file' do
-    let(:timeline) { described_class.from_yaml_file }
+RSpec.describe TimelineFactory do
+  describe '#create' do
+    let(:timeline) { described_class.new.create }
 
     it 'creates from yaml events' do
       event = timeline.first
