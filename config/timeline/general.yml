@@ -1425,12 +1425,12 @@ events:
   -
     name: "Nascimento de João, o Batizador, e de Jesus Luc. 1:60; 2:7"
     from:
-      year: 2
+      year: -2
       month:
       day:
       precision: precise
     to:
-      year: 2
+      year: -2
       month:
       day:
       precision: precise
