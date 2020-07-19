@@ -72,3 +72,17 @@ events:
       month:
       day:
       precision: precise
+  -
+    name: "Jeosafá rei de Judá"
+    description_lines:
+      - "Jeosafá sucede a Asa como rei 1 Reis 22:41 de Judá 1 Reis 22:42"
+    from:
+      year: -936
+      month:
+      day:
+      precision: precise
+    to:
+      year: -906
+      month:
+      day:
+      precision: about

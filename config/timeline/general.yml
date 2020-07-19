@@ -630,18 +630,6 @@ events:
       day:
       precision: about
   -
-    name: "Jeosafá sucede a Asa como rei 1 Reis 22:41 de Judá 1 Reis 22:42"
-    from:
-      year: -936
-      month:
-      day:
-      precision: precise
-    to:
-      year: -936
-      month:
-      day:
-      precision: precise
-  -
     name: "Acazias sucede a Acabe como 1 Reis 22:51 rei único de Israel 1 Reis 22:52"
     from:
       year: -919
