@@ -49,6 +49,8 @@
   padding-left: 10px;
   margin-bottom: 2px;
   color: gray;
+  float: left;
+  clear: both;
 
   &.long-event {
     background: gold;

@@ -1,0 +1,11 @@
+<div>
+  <% if event.lengthy? %>
+    <div><strong><%= event.from %> - <%= event.to %></strong></div>
+  <% else %>
+    <div><%= event.from %></div>
+  <% end %>
+  <br>
+  <% event.description_lines.each do |line| %>
+    <div>- <%= line %></div>
+  <% end %>
+</div>

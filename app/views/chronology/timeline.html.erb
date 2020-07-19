@@ -13,7 +13,12 @@
   <div class="events">
     <% @timeline.each do |event| %>
       <% event = EventDecorator.new(event) %>
-      <div data-toggle="tooltip" data-placement="bottom" class="event <%= event.css_classes %>" style="<%= event.inline_css  %>" title="<%= event.to_s %>">
+      <div data-toggle="tooltip"
+           data-placement="bottom"
+           data-html="true"
+           class="event <%= event.css_classes %>"
+           style="<%= event.inline_css  %>"
+           title="<%= render partial: 'event_tooltip', locals: { event: event } %>">
         <%= event.name  %>
       </div>
     <% end %>

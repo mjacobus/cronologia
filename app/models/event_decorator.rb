@@ -13,6 +13,10 @@ class EventDecorator
     @event.from
   end
 
+  def description_lines
+    @event.description_lines
+  end
+
   def to
     @event.to
   end
