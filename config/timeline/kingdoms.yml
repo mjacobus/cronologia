@@ -129,3 +129,14 @@ events:
     to:
       year: -905
       precision: about
+
+  -
+    name: "Atalia rainha de Judá"
+    description_lines:
+      - "A Rainha Atalia usurpa o trono de Judá 2 Reis 11:1-3 Jeú sucede a Jeorão como rei 2 Reis 9:24, 27; de Israel 2 Reis 10:36"
+    from:
+      year: -905
+      precision: about
+    to:
+      year: -898
+      precision: precise
