@@ -29,7 +29,8 @@ events:
       year: -1037
       month:
       day:
-   -
+      precision: precise
+  -
     name: "Salomão rei de Israel"
     description_lines:
       - "Salomão sucede a Davi como 1 Reis 1:39; rei de Israel 1 Reis 2:12"
@@ -44,7 +45,6 @@ events:
       month:
       day:
       precision: precise
-     precision: precise
   -
     name: "Roboão rei de Judá"
     description_items:
