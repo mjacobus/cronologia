@@ -102,10 +102,12 @@ events:
       day:
       precision: about
   -
-    name: "Jeorão \"rei\" de Judá"
+    name: "Jeorão (filho de Jeosafá) rei Judá"
     description_lines:
       - "Jeorão, de Judá, ‘torna-se rei’ junto com Jeosafá 2 Reis 8:16, 17"
       - "Acazias sucede a Jeorão como rei de Judá 2 Reis 8:25, 26"
+      - "Tinha 32 anos de idade e reinou por 8 anos."
+      - "'Tornou-se rei' enquanto seu pai ainda reinava"
     from:
       year: -913
       month:
@@ -115,4 +117,15 @@ events:
       year: -906
       month:
       day:
+      precision: about
+  -
+    name: "Acazias rei de Judá"
+    description_lines:
+      - "Acazias sucede a Jeorão como rei de Judá 2 Reis 8:25, 26"
+      - "Acazias morre depois de um ano e sua mãe Atalia usurpa o trono"
+    from:
+      year: -906
+      precision: precise
+    to:
+      year: -905
       precision: about

@@ -639,7 +639,7 @@ events:
       day:
       precision: about
   -
-    name: "Jeorão, de Israel, sucede a Acazias como rei único 2 Reis 3:1"
+    name: "Jeorão (filho de Acabe), de Israel, sucede a Acazias como rei único 2 Reis 3:1"
     from:
       year: -917
       month:
@@ -647,18 +647,6 @@ events:
       precision: about
     to:
       year: -917
-      month:
-      day:
-      precision: about
-  -
-    name: "Acazias sucede a Jeorão como rei de Judá 2 Reis 8:25, 26"
-    from:
-      year: -906
-      month:
-      day:
-      precision: about
-    to:
-      year: -906
       month:
       day:
       precision: about
