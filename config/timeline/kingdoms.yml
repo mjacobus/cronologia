@@ -86,3 +86,18 @@ events:
       month:
       day:
       precision: about
+  -
+    name: "Jeorão \"rei\" de Judá"
+    description_lines:
+      - "Jeorão, de Judá, ‘torna-se rei’ junto com Jeosafá 2 Reis 8:16, 17"
+      - "Acazias sucede a Jeorão como rei de Judá 2 Reis 8:25, 26"
+    from:
+      year: -913
+      month:
+      day:
+      precision: precise
+    to:
+      year: -906
+      month:
+      day:
+      precision: about
